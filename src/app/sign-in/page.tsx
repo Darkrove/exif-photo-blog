@@ -4,7 +4,7 @@ import { PATH_ROOT } from '@/site/paths';
 import { cc } from '@/utility/css';
 import { redirect } from 'next/navigation';
 
-export const runtime = 'edge';
+// export const runtime = 'edge';
 
 export default async function SignInPage() {
   const session = await auth();
